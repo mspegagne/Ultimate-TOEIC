@@ -181,6 +181,31 @@ void test(){
 	questions.push_back(std::make_pair("We will have to keep our old car. We can't afford .... a new one. \n A. buying | B. in buying | C. buy | D. to buy\n", "D"));
 	questions.push_back(std::make_pair("Statistics show that most prices .... by about 5\% when the new currency waq introduced. \n A. rise | B. raise | C. rose | D. raised\n", "C"));
 
+
+	//Questions from MINI-TEST 2
+	questions.push_back(std::make_pair("The young intern who was hired last month is quite .... about accounting. \n A. known | B. knowing | C. knowledge | D. knowledgeable\n", "D"));
+	questions.push_back(std::make_pair("I have a lot of work to do this afternoon, so please do not phone me .... it is something urgent. \n A. if | B. even | C. unless | D. despite\n", "C"));
+	questions.push_back(std::make_pair("The detailed specifications must be .... before the end of the year. \n A. attended | B. reminded | C. committed | D. submitted\n", "D"));
+	questions.push_back(std::make_pair("The advertising agency suggested .... the spring sales campaign at the end of March. \n A. that we start | B. us to start | C. to start | D. start\n", "A"));
+	questions.push_back(std::make_pair("We have .... to Korea twice this year in order to make contacts and develop a joint venture. \n A. went | B. been | C. gone | D. go\n", "B"));
+	questions.push_back(std::make_pair("Although we had left home on time, we arrived at the airport much .... than we expected. \n A. late | B. later | C. lately | D. latest\n", "B"));
+	questions.push_back(std::make_pair("Sales of our new model .... from 8,000 to 5,000 units due to problems with the automatic gear box system. \n A. grew | B. soared | C. dropped | D. took off\n", "C"));
+	questions.push_back(std::make_pair("We have four elevators in this building but ..... seem to be working this morning. \n A. neither of them | B. none of them | C. both of them | D. all of them\n", "B"));
+	questions.push_back(std::make_pair("It is important than he .... his internship before accepting any job offer. \n A. finish | B. finishes | C. will finish | D. finished\n", "A"));
+	questions.push_back(std::make_pair("We will never reach a compromise unless they ..... to change the terms of the contract. \n A. end | B. agree | C. accept | D. consider\n", "B"));
+	questions.push_back(std::make_pair("You cannot access .... where all the financial transactions are made unless you are a staff member. \n A. the room | B. in the room | C. to the room | D. into the room\n", "A"));
+	questions.push_back(std::make_pair(".... speaking, this implies relocating part of our production to the far East. \n A. Broad | B. Broader | C. Broaden | D. Broadly\n", "D"));
+	questions.push_back(std::make_pair("As he was afraid of missing his flight, the manager .... his assitant to drive him to the airport. \n A. made | B. had | C. got | D. let\n", "C"));
+	questions.push_back(std::make_pair("We must go to sleep now if we really want to .... early tomorrow morning. \n A. set up | B. set off | C. set back | D. set aside\n", "B"));
+	questions.push_back(std::make_pair("Ms. Brown answers the phone and replies to my e-mails when I am on ..... abroad. \n A. appointment | B. assignement | C. average | D. travel\n", "B"));
+	questions.push_back(std::make_pair("From now an we will have to work much ... to improve the quality of our components. \n A. hard | B. harder | C. hardly | D. as hard\n", "B"));
+	questions.push_back(std::make_pair("I am used .... lunch with my colleagues at least once a week. \n A. have | B. to have | C.  having | D. to having\n", "D"));
+	questions.push_back(std::make_pair("Our performance figures for this year are .... our expectations, which is rather surprising given the current economic climate. \n A. at | B. amid | C. beyond | D. throughout\n", "C"));
+	questions.push_back(std::make_pair("Having been in charge of the New York office for even ten years, he realized he had reached a .... point in his career. \n A. rolling | B. turning | C. passing | D. crossing\n", "B"));
+	questions.push_back(std::make_pair("He still has trouble following a conversation with native English speakers but he can make himself .... pretty well. \n A. understood | B. understand | C. to understand | D. understanding\n", "A"));
+	
+
+
 	bool doIt = true;
 	int score = 0;
 	int nbQuest = 0;
