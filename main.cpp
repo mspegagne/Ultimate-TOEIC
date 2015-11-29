@@ -205,6 +205,29 @@ void test(){
 	questions.push_back(std::make_pair("He still has trouble following a conversation with native English speakers but he can make himself .... pretty well. \n A. understood | B. understand | C. to understand | D. understanding\n", "A"));
 	
 
+	//Questions from MINI-TEST 1
+	questions.push_back(std::make_pair("The most .... part in the President's speech was when he outlined his strategy for the next five years. \n A. interest | B. interested | C. interesting | D. interestingly\n", "C"));
+	questions.push_back(std::make_pair("If you had .... me that it was her birthday yesterday, I would have bought her some flowers. \n A. reminded | B. remembered | C. repeated | D. recalled\n", "A"));
+	questions.push_back(std::make_pair("This magazine gives reliable information about domestic affairs as well as political and .... issues. \n A. economics | B. economic | C. economical | D. economocally\n", "B"));
+	questions.push_back(std::make_pair("The government intends to reduce the mount of the .... paid to people without jobs. \n A. benefits | B. rewards | C. advantages | D. wages\n", "A"));
+	questions.push_back(std::make_pair("I am trying to .... the number of applications I have sent in the last three weeks. \n A. work | B. work out | C. work up to | D. work away\n", "B"));
+	questions.push_back(std::make_pair("In order to reduce costs, the company decided to .... two hundred assembly line workers. \n A. fulfil | B. devise | C. lay off | D. take over\n", "C"));
+	questions.push_back(std::make_pair("Recent statistics show that .... companies operating in this field reduce costs by outsourcing part of their activity. \n A. most | B. most of | C. the most | D. mostly\n", "A"));
+	questions.push_back(std::make_pair("Even though he resigned a couple of months ago, he is .... an active member of th board. \n A. ever | B. still | C. again | D. any more\n", "B"));
+	questions.push_back(std::make_pair("Three ..... employees went on strike and demonstrated to protest against the restrucuring plan. \n A. thousands of | B. thousand of | C. thousands | D. thousand\n", "D"));
+	questions.push_back(std::make_pair("The main .... of sport utlity cehicles is that they consume too much fuel. \n A. strength | B. outcome | C. drawback | D. allowance\n", "C"));
+	questions.push_back(std::make_pair("Household consumption has been falling gradually for the last six months, .... worries some financial analysts. \n A. which | B. what | C. who | D. that\n", "A"));
+	questions.push_back(std::make_pair("Everyday thousands of Japanese people .... between Tokyo and the outer suburbs. \n A. locate | B. assess | C. compel | D. commute\n", "D"));
+	questions.push_back(std::make_pair("It took me several months to get used to .... my messages by email. \n A. send | B. sending | C. have sent | D. be sent\n", "B"));
+	questions.push_back(std::make_pair("As you are .... this company is going through a vey difficult transitions period. \n A. aware | B. conscientious | C. known | D. efficient\n", "A"));
+	questions.push_back(std::make_pair("With the new software, our accountant will no longer need to spend so much time .... new date. \n A. enter | B. to enter | C. entered | D. entering\n", "D"));
+	questions.push_back(std::make_pair("There is too .... time left to get the report ready before the meeting. \n A. little | B. few | C. many | D. some\n", "A"));
+	questions.push_back(std::make_pair("It's high time we .... where to hold the next annual conference. \n A. decide | B. decided | C. have decided | D. are deciding \n", "B"));
+	questions.push_back(std::make_pair("I have been looking all over for my passport. I cannot find it .... . \n A. nowhere | B. anywhere | C. somewhere | D. everywhere\n", "B"));
+	questions.push_back(std::make_pair("We delayed .... the new device because it was not yet ready for mass production. \n A. launch | B. to launch | C. launching | D. to have launched\n", "C"));
+	questions.push_back(std::make_pair("If they had designed a more advanced product at an attractive price, they .... a larger market share. \n A. had gained | B. will have gained | C. would have gained | D. would have been gained\n", "C"));
+	
+	
 
 	bool doIt = true;
 	int score = 0;
