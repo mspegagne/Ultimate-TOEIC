@@ -14,7 +14,7 @@ using namespace std;
 
 void intro(){
 	printf("##########################################################\n");
-	printf("# Welcome in the ultimate english grammar lesson.		  \n");	
+	printf("# Welcome to the ultimate english grammar lesson.		  \n");	
 	printf("# Please choose an exercice:                    		  \n");	
 	printf("# [1]: Prepositions                             		  \n");
 	printf("# [2]: Grammar Test (20 random questions)       		  \n");	
