@@ -270,6 +270,50 @@ void test(){
 	questions.push_back(std::make_pair("The company was .... by an immigrant. \n A. found | B. founding | C. find | D. founded\n", "D"));
 	questions.push_back(std::make_pair("Mr. Daley is our most skilled speaker; ...., he is unavailable to give the presentation. \n A. besides | B. nevertheless | C. for example | D. while\n", "B"));
 	questions.push_back(std::make_pair("Have Ms. Alva .... a press release immediately. \n A. writes | B. to write | C. writing | D. write\n", "D"));
+	
+
+	//Questions from PRACTICE TEST 1 Laura
+	questions.push_back(std::make_pair("Both companies are .... the same business. \n A. in | B. with | C. from | D. through\n", "A"));
+	questions.push_back(std::make_pair(".... there were so many options, everyone was satisfied. \n A. If | B. Why | C. Because | D. When\n", "C"));
+	questions.push_back(std::make_pair("If they .... more aware of the trends, they could have avoided bankruptcy. \n A. were | B. are | C. have been | D. had been\n", "D"));
+	questions.push_back(std::make_pair("Make checks .... to the company. \n A. paid | B. payable | C. paying | D. pay\n", "B"));
+	questions.push_back(std::make_pair("Ms. Bolton is both a strong manager .... aa skilled negotiator. \n A. or | B. with | C. and | D. though\n", "C"));
+	questions.push_back(std::make_pair("..... the stockbrokers said the market was healthy, they refused to invest more money. \n A. Because | B. Although | C. In addition | D. So\n", "B"));
+	questions.push_back(std::make_pair("The seminar will adjourn .... five o'clock. \n A. in | B. on | C. at | D. the\n", "C"));
+	questions.push_back(std::make_pair("Marketing is important .... we're hiring a new public relations firm. \n A. therefore | B. even though  | C. nevertheless | D. but\n", "A"));
+	questions.push_back(std::make_pair("The secretary had the messenger .... the envelope as soon as possible. \n A. delivering  | B. to deliver | C. deliver | D. delivered\n", "C"));
+	questions.push_back(std::make_pair("The board meetings usually .... on time. \n A. have started | B. start | C. are starting | D. have been starting\n", "B"));
+	questions.push_back(std::make_pair("Eveyone was disappointed to hear that the company's proposal was ..... . \n A. turned up | B. turned on | C. turned away | D. turned down\n", "D"));
+	questions.push_back(std::make_pair("Even though the exchange rate was high, we .... from them. \n A. buy | B. must have bought | C. had to buy | D. had better buy\n", "C"));
+	questions.push_back(std::make_pair("..... Dr. Rossi hired the new assistant, the office has become more organized. \n A. When | B. Before | C. While | D. Since\n", "D"));
+	questions.push_back(std::make_pair("Mr. Cutler will .... as president. \n A. step out | B. step down  | C. step from | D. step through\n", "B"));
+	questions.push_back(std::make_pair("Ms. Silva sent the memo .... it had been approved. \n A. so | B. but | C. after | D. until\n", "C"));
+	questions.push_back(std::make_pair("It's time to take advantage of current .... rates. \n A. interesting | B. interest | C. interested | D. interests\n", "B"));
+	questions.push_back(std::make_pair("The manager has to .... the presentation until next week. \n A. put off | B. put with | C. put on | D. put through\n", "A"));
+	questions.push_back(std::make_pair("When the directors .... a profit, they'll be satisfied. \n A. will see | B. are seeing | C. see | D. have been seeing\n", "C"));
+	questions.push_back(std::make_pair("Do .... an estimate before getting it in writing. \n A. not ever accept | B. never accept | C. accept never | D. not accept ever\n", "A"));
+	questions.push_back(std::make_pair("Production went down .... morale was low. \n A. even though | B. when | C. but | D. to\n", "B"));
+	questions.push_back(std::make_pair("The distibutors will collaborate .... a British company. \n A. with | B. in | C. from | D. at\n", "A"));
+	questions.push_back(std::make_pair("If banks .... the number of credits cards, the economy would improve. \n A. limiting | B. limited | C. had limited | D. are limiting\n", "B"));
+	questions.push_back(std::make_pair("One suggestion was to .... gasoline taxes. \n A. raise | B. have raised | C. be raising | D. raising\n", "A"));
+	questions.push_back(std::make_pair("The host will want the total amount .... before paying the bill. \n A. checked | B. be checked | C. checking | D. check\n", "A"));
+	questions.push_back(std::make_pair("The new sales manager cooperates with her colleagues; .... , she is a valued member. \n A. although | B. however | C. for example | D. therefore\n", "D"));
+	questions.push_back(std::make_pair(".... our office, Mr. James voted against the proposal. \n A. Representation | B. Representative | C. Representing | D. Representative of\n", "C"));
+	questions.push_back(std::make_pair("Paychecks .... . \n A. are twice distributed a month | B. twice a month are distributes | C. are distributed twice a month | D. a month are distributed twice\n", "C"));
+	questions.push_back(std::make_pair("There has been a decline in local .... national advertising. \n A. therefore | B. so | C. but | D. and\n", "D"));
+	questions.push_back(std::make_pair(".... Mrs. Lee was calling her husband's office, he was calling hers. \n A. While | B. Because | C. So | D. Then\n", "A"));
+	questions.push_back(std::make_pair("The CEOs will meet .... Chicago next month. \n A. at | B. in | C. to | D. from\n", "B"));
+	questions.push_back(std::make_pair("The award was contested by one of the .... . \n A. competitors | B. competition | C. competing | D. competitive\n", "A"));
+	questions.push_back(std::make_pair("The .... was considered final. \n A. decisive | B. decided | C. decisin | D. deciding\n", "C"));
+	questions.push_back(std::make_pair("Mr. Wong once lived .... New Orleans. \n A. in | B. at | C. from | D. on\n", "A"));
+	questions.push_back(std::make_pair("The report focused on the .... of the study. \n A. foundlings | B. finds | C. findings | D. found\n", "C"));
+	questions.push_back(std::make_pair("The staff .... the office had been burglarized. \n A. suspicion | B. suspense | C. suspicious | D. suspected\n", "D"));
+	questions.push_back(std::make_pair(".... all the references to verify the information. \n A. Look by | B. Look out | C. Look up | D. Look to\n", "C"));
+	questions.push_back(std::make_pair("Mary is .... an excellent writer. \n A. considerate | B. considered | C. considerable | D. considers\n", "B"));
+	questions.push_back(std::make_pair("They .... the launch of their new company only a year ago. \n A. announce | B. are announcing | C. have announced | D. announced\n", "D"));
+	questions.push_back(std::make_pair("After re-evaluating the proposal, the agency .... the contract to us. \n A. awarding | B. had awarded | C. awarded | D. awards\n", "C"));
+	questions.push_back(std::make_pair("My supervisor had me .... the morning taking inventory. \n A. spend | B. to spend | C. spent | D. spending\n", "A"));
+
 
 	bool doIt = true;
 	int score = 0;
