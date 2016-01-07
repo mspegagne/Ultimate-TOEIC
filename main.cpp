@@ -14,11 +14,11 @@ using namespace std;
 
 void intro(){
 	printf("##########################################################\n");
-	printf("# Welcome to the ultimate english grammar lesson.		  \n");	
-	printf("# Please choose an exercice:                    		  \n");	
+	printf("# Welcome to the ultimate english grammar lesson.		  \n");
+	printf("# Please choose an exercice:                    		  \n");
 	printf("# [1]: Prepositions                             		  \n");
-	printf("# [2]: Grammar Test (20 random questions)       		  \n");	
-	printf("# [stop]: Exit							           			  \n");	
+	printf("# [2]: Grammar Test (20 random questions)       		  \n");
+	printf("# [stop]: Exit							           			  \n");
 	printf("##########################################################\n");
 }
 
@@ -26,12 +26,12 @@ void intro(){
 void prepositions(){
 
 	printf("##########################################################\n");
-	printf("# For each sentence, please write the right preposition.  \n");	
+	printf("# For each sentence, please write the right preposition.  \n");
 	printf("# write to+inf or to+ing if needed.						  \n");
 	printf("# If no preposition is required, write 0.				  \n");
-	printf("# To stop the exercice, write stop as an answer.		  \n");		
+	printf("# To stop the exercice, write stop as an answer.		  \n");
 	printf("##########################################################\n");
-	
+
 
 	vector<std::pair<string, string> > questions;
 
@@ -93,16 +93,14 @@ void prepositions(){
 	while(doIt){
 		nbQuest++;
 
-		std::random_device random_device;
-		std::mt19937 engine(random_device());
-		std::uniform_int_distribution<int> dist(0, questions.size() - 1);
-		
-		std::pair<string, string>  random_question = questions[dist(engine)];
+        int id = rand() % questions.size();
+
+		std::pair<string, string>  random_question = questions[id];
 
 		string question = random_question.first;
 		string right_answer = random_question.second;
 
-		string answer; 
+		string answer;
 
 		cout << question << " ";
 		cin >> answer;
@@ -111,19 +109,19 @@ void prepositions(){
 			doIt = false;
 			intro();
 			return;
-		}	
+		}
 		if(answer == right_answer){
 			score++;
-			cout << "Right ! " << question << " " << right_answer << endl;			
+			cout << "Right ! " << question << " " << right_answer << endl;
 			cout << "Score : " << score << "/"<< nbQuest << endl;
 			cout << endl;
-		}	
+		}
 		else{
-			cout << "False ! " << question << " " << right_answer << endl;			
+			cout << "False ! " << question << " " << right_answer << endl;
 			cout << "Score : " << score << "/"<< nbQuest << endl;
 			cout << endl;
-		}		
-	
+		}
+
 
 	}
 	return;
@@ -133,10 +131,10 @@ void prepositions(){
 void test(){
 
 	printf("##########################################################\n");
-	printf("# For each sentence, please write the right answer (A not a). \n");	
-	printf("# To stop the exercice, write stop as an answer.		  \n");		
+	printf("# For each sentence, please write the right answer (A not a). \n");
+	printf("# To stop the exercice, write stop as an answer.		  \n");
 	printf("##########################################################\n");
-	
+
 
 	vector<std::pair<string, string> > questions;
 
@@ -204,7 +202,7 @@ void test(){
 	questions.push_back(std::make_pair("Our performance figures for this year are .... our expectations, which is rather surprising given the current economic climate. \n A. at | B. amid | C. beyond | D. throughout\n", "C"));
 	questions.push_back(std::make_pair("Having been in charge of the New York office for even ten years, he realized he had reached a .... point in his career. \n A. rolling | B. turning | C. passing | D. crossing\n", "B"));
 	questions.push_back(std::make_pair("He still has trouble following a conversation with native English speakers but he can make himself .... pretty well. \n A. understood | B. understand | C. to understand | D. understanding\n", "A"));
-	
+
 
 	//Questions from MINI-TEST 1
 	questions.push_back(std::make_pair("The most .... part in the President's speech was when he outlined his strategy for the next five years. \n A. interest | B. interested | C. interesting | D. interestingly\n", "C"));
@@ -227,7 +225,7 @@ void test(){
 	questions.push_back(std::make_pair("I have been looking all over for my passport. I cannot find it .... . \n A. nowhere | B. anywhere | C. somewhere | D. everywhere\n", "B"));
 	questions.push_back(std::make_pair("We delayed .... the new device because it was not yet ready for mass production. \n A. launch | B. to launch | C. launching | D. to have launched\n", "C"));
 	questions.push_back(std::make_pair("If they had designed a more advanced product at an attractive price, they .... a larger market share. \n A. had gained | B. will have gained | C. would have gained | D. would have been gained\n", "C"));
-	
+
 
 	//Questions from PRACTICE TEST 2 Laura
 	questions.push_back(std::make_pair("Mr. Doh .... clients' phone calls. \n A. rarely returns | B. returns rarely | C. has returned rarely | D. rarely had return\n", "A"));
@@ -270,7 +268,7 @@ void test(){
 	questions.push_back(std::make_pair("The company was .... by an immigrant. \n A. found | B. founding | C. find | D. founded\n", "D"));
 	questions.push_back(std::make_pair("Mr. Daley is our most skilled speaker; ...., he is unavailable to give the presentation. \n A. besides | B. nevertheless | C. for example | D. while\n", "B"));
 	questions.push_back(std::make_pair("Have Ms. Alva .... a press release immediately. \n A. writes | B. to write | C. writing | D. write\n", "D"));
-	
+
 
 	//Questions from PRACTICE TEST 1 Laura
 	questions.push_back(std::make_pair("Both companies are .... the same business. \n A. in | B. with | C. from | D. through\n", "A"));
@@ -326,18 +324,16 @@ void test(){
 			doIt = false;
 			intro();
 			return;
-		}	
+		}
 
-		std::random_device random_device;
-		std::mt19937 engine(random_device());
-		std::uniform_int_distribution<int> dist(0, questions.size() - 1);
-		
-		std::pair<string, string>  random_question = questions[dist(engine)];
+        int id = rand() % questions.size();
+
+		std::pair<string, string>  random_question = questions[id];
 
 		string question = random_question.first;
 		string right_answer = random_question.second;
 
-		string answer; 
+		string answer;
 
 		cout << question << " ";
 		cin >> answer;
@@ -346,20 +342,20 @@ void test(){
 			doIt = false;
 			intro();
 			return;
-		}	
+		}
 
 		if(answer == right_answer){
 			score++;
-			cout << "Right ! " << right_answer << endl;			
+			cout << "Right ! " << right_answer << endl;
 			cout << "Score : " << score << "/"<< nbQuest << endl;
 			cout << endl;
-		}	
+		}
 		else{
-			cout << "False ! " << right_answer << endl;			
+			cout << "False ! " << right_answer << endl;
 			cout << "Score : " << score << "/"<< nbQuest << endl;
 			cout << endl;
-		}		
-	
+		}
+
 
 	}
 	return;
@@ -372,11 +368,10 @@ int main(int argc, const char * argv[]) {
 	intro();
 	int prog;
 	while(cin >> prog){
-		switch(prog) { 
-			    case 1 : prepositions(); 
-			    case 2 : test(); 
+		switch(prog) {
+			    case 1 : prepositions();
+			    case 2 : test();
 		}
 	}
 	return(0);
 }
-
