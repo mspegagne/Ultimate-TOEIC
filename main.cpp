@@ -93,8 +93,7 @@ void prepositions(){
 	while(doIt){
 		nbQuest++;
 
-        int id = rand() % questions.size();
-
+		int id = rand() % questions.size();
 		std::pair<string, string>  random_question = questions[id];
 
 		string question = random_question.first;
@@ -326,8 +325,7 @@ void test(){
 			return;
 		}
 
-        int id = rand() % questions.size();
-
+		int id = rand() % questions.size();
 		std::pair<string, string>  random_question = questions[id];
 
 		string question = random_question.first;
